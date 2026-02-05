@@ -1,0 +1,44 @@
+# ────────────────────────────────────────────────
+# Laravel defaults + common ignores
+# ────────────────────────────────────────────────
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache
+phpunit.xml
+coverage/
+.idea
+.vscode
+*.log
+
+# ────────────────────────────────────────────────
+# Docker & container related
+# ────────────────────────────────────────────────
+docker-compose.override.yml
+docker-compose.override.yaml
+*.dockerignore
+Dockerfile*
+docker-compose*.yml.bak
+*.docker-compose.yml
+**/.DS_Store
+
+# Local development databases / caches (if any leak outside src/)
+/database
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.DS_Store
+
+# Temporary / build artifacts
+/build
+/dist
