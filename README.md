@@ -4,11 +4,18 @@ A Laravel 12 application running inside Docker with MySQL, Nginx, and PHP.
 This project demonstrates fetching and storing external API data (Typicode and Placeholder.org), optimizing large data handling, and presenting it with Bootstrap‑styled views.
 
 ---
+## 📂 Clone the Repository
+```bash 
+git clone -b main https://github.com/akash-rumi/ApiDataViewer.git
+cd ApiDataViewer
+```
+---
 
 ## 🚀 How to Set Up and Run the Application
 
 ### Prerequisites
-- Docker & Docker Compose installed
+- Docker Engine >= 20.10
+- Docker Compose >= 2.0
 - Bash shell (Linux/macOS/WSL; Windows users can use Git Bash or WSL)
 
 ### Folder Structure
@@ -30,6 +37,10 @@ This project demonstrates fetching and storing external API data (Typicode and P
 ```
 
 ### Quick Setup
+Before run the set the permission of file
+```bash
+chmod +x setup.sh
+```
 Run the provided script:
 
 ```bash
