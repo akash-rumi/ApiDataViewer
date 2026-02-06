@@ -37,7 +37,7 @@ cd ApiDataViewer
 ```
 
 ### Quick Setup
-Before run the set the permission of file
+Before run the script, make sure you have set the permission of file.
 ```bash
 chmod +x setup.sh
 ```
@@ -111,7 +111,7 @@ Then visit:
 ## 🏆 Summary
 This project demonstrates:
 - Best practices in Laravel for external data handling.
-- Optimized architecture with base commands, repositories, and reusable components.
+- Optimized architecture with base commands and reusable components.
 - Clean presentation using Bootstrap with UX enhancements.
 - Dockerized setup for consistent local development.
 
